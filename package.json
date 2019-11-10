@@ -1,0 +1,26 @@
+{
+  "name": "wishlist-bot",
+  "version": "1.0.0",
+  "description": "A bot that tweets to twitter anytime a new wishlist is added by a user.",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "wishlist"
+  ],
+  "dependencies": {
+    "body-parser": "^1.17.1",
+    "cors": "^2.8.1",
+    "express": "^4.15.2",
+    "request": "^2.81.0",
+    "twit": "^2.2.11"
+  },
+  "devDependencies": {
+    "gulp": "~3.9.1",
+    "gulp-eslint": "^2.0.0",
+    "gulp-nodemon": "^2.2.1"
+  },
+  "author": "Richard Igbiriki",
+  "license": "ISC"
+}

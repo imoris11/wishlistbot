@@ -10,7 +10,7 @@ var express = require('express'),
   Twit = require('twit'),
   util = require("util");
 
-  var twitterConfig = require('./twitter.config.js');
+  //var twitterConfig = require('./twitter.config.js');
   var T = new Twit({
     consumer_key:         process.env.CONSUMER_KEY,
     consumer_secret:      process.env.CONSUMER_SECRET,
